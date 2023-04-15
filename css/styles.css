@@ -276,6 +276,50 @@ button {
 
 .team-text {
     text-align: center;
+    margin-bottom: 13px;
+}
+
+/*social icons*/
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--iris);
+    border-radius: 50%;
+}
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--ocean);
+}
+
+/*customers*/
+
+.customer-title {
+    margin-bottom: 72px;
+}
+
+.customer-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.customer-link {
+    display: flex;
+    width: 168px;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+    border: var(--light-slate);
+    border-radius: 4px;
 }
 
 /*footer*/
