@@ -231,6 +231,26 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/*general information section*/
+.decor-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.decor-item {
+    display: flex;
+    width: 264px;
+    height: 112px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cloud);
+    border-radius: 4px;
+}
+
+/*offer section*/
+
 .offer-section {
     padding-top: 0%;
 }
@@ -243,6 +263,8 @@ button {
     gap: 24px;
     flex-basis: calc((100% - 2 * 16px) / 3);
 }
+
+/*team section*/
 
 .team-section {
     background-color: var(--cloud);
@@ -280,6 +302,7 @@ button {
 }
 
 /*social icons*/
+
 .socials {
     display: flex;
     justify-content: center;
@@ -300,7 +323,7 @@ button {
     background-color: var(--ocean);
 }
 
-/*customers*/
+/*customers section*/
 
 .customer-title {
     margin-bottom: 72px;
@@ -312,14 +335,28 @@ button {
     gap: 24px;
 }
 
-.customer-link {
+.customer-item {
     display: flex;
     width: 168px;
     height: 88px;
     justify-content: center;
     align-items: center;
-    border: var(--light-slate);
+    background-color: var(--white);
+    border: 1px solid var(--light-slate);
     border-radius: 4px;
+}
+
+.customer-item:hover,
+.customer-item:focus {
+    border-color: var(--ocean);
+}
+
+.customer-icon {
+    fill: var(--light-slate);
+}
+.customer-icon:hover,
+.customer-icon:focus {
+   fill: var(--ocean); 
 }
 
 /*footer*/
@@ -338,6 +375,27 @@ button {
 .footer-desc {
     color: var(--cloud);
     width: 264px;
+}
+
+.footer-inner {
+    display: flex;
+    gap: 118px;
+}
+
+.footer-socials-text {
+    color: var(--white);
+    padding-bottom: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.socials-footer {
+    gap: 16px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    background-color: var(--green);
 }
 
 /*portfolio*/
