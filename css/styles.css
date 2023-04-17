@@ -62,8 +62,8 @@ button {
 
 .container {
     width: 1158px;
-    outline: 2px solid red;
-    outline-offset: -2px;
+    /*outline: 2px solid red;
+    outline-offset: -2px;*/
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -384,7 +384,7 @@ button {
     color: var(--ocean);
 }
 
-.customer-item {
+.customer-icon {
     fill: currentColor;
 }
 
@@ -414,7 +414,6 @@ button {
 
 .footer-socials-text {
     color: var(--white);
-    padding-bottom: 16px;
     font-weight: 500;
     line-height: 24px;
 
