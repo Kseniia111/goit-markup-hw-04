@@ -353,7 +353,7 @@ button {
 
 .customer-item {
     display: flex;
-    /*width: 168px;*/
+    width: 168px;
     height: 88px;
     justify-content: center;
     align-items: center;
@@ -487,10 +487,12 @@ button {
     column-gap: 24px;
     row-gap: 48px;
 }
+.portfolio-service-link {
+    display: block;
+}
 
 .portfolio-service-link:hover,
 .portfolio-service-link:focus {
-    display: block;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
